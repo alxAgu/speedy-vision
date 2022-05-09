@@ -34,7 +34,7 @@ export class SpeedyMedia {
      * The type of the media attached to this SpeedyMedia object
      * @returns {"image" | "video" | "canvas" | "bitmap" | "unknown"}
      */
-    get type(): "canvas" | "video" | "image" | "unknown" | "bitmap";
+    get type(): "canvas" | "video" | "image" | "bitmap" | "unknown";
     /**
      * Gets the width of the media
      * @returns {number} media width
